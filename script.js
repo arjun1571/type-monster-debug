@@ -88,7 +88,7 @@ const gameOver = () => {
     <button onclick="closeModal()">Close</button>
   `;
 
-  addHistory(questionText, timeTaken, errorCount);
+  addHistory(questionText, timeTakenStr, errorCount);
 
   // restart everything
   startTime = null;
